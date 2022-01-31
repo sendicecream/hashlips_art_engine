@@ -27,12 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Underbody01" },
+      { name: "Wheels01" },
+      { name: "Body01" },
+      { name: "FrontEnd01" },
+      { name: "RoofRear01" },
+      { name: "RoofFront01" },
     ],
   },
 ];
