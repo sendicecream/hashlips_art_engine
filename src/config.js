@@ -97,13 +97,13 @@ const layerConfigurations = [
 
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 1200,
-  height: 1200,
+  width: 1000,
+  height: 1000,
   smoothing: false,
 };
 
@@ -128,7 +128,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 1 / 256,
 };
 
 const background = {
