@@ -24,17 +24,77 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 100,
     layersOrder: [
+
       { name: "Background" },
-      { name: "Underbody01" },
       { name: "Wheels01" },
       { name: "Body01" },
+      { name: "Tinted01" },
       { name: "FrontEnd01" },
       { name: "RoofRear01" },
       { name: "RoofFront01" },
     ],
   },
+
+  {
+    // Creates an additional 100 artworks
+    growEditionSizeTo: 200,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Wheels02" },
+      { name: "Body02" },
+      { name: "Tinted02" },
+      { name: "FrontEnd02" },
+      { name: "RoofRear02" },
+      { name: "RoofFront02" },
+    ],
+  },
+
+  {
+    // Creates an additional 100 artworks
+    growEditionSizeTo: 300,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Wheels03" },
+      { name: "Body03" },
+      { name: "Tinted03" },
+      { name: "FrontEnd03" },
+      { name: "RoofRear03" },
+      { name: "RoofFront03" },
+    ],
+  },
+
+  {
+    // Creates an additional 100 artworks
+    growEditionSizeTo: 400,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Wheels04" },
+      { name: "Body04" },
+      { name: "Tinted04" },
+      { name: "FrontEnd04" },
+      { name: "RoofRear04" },
+      { name: "RoofFront04" },
+    ],
+  },
+
+  {
+    // Creates an additional 100 artworks
+    growEditionSizeTo: 500,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Wheels05" },
+      { name: "Body05" },
+      { name: "Tinted05" },
+      { name: "FrontEnd05" },
+      { name: "RoofRear05" },
+      { name: "RoofFront05" },
+    ],
+  },
+
+
+
 ];
 
 const shuffleLayerConfigurations = false;
@@ -42,8 +102,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1200,
+  height: 1200,
   smoothing: false,
 };
 
